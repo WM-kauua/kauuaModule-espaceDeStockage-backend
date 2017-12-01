@@ -1,0 +1,10 @@
+{
+  "kawaModuleName":"espaceDeStockage",
+  "kawaModuleAngularDirectory":"./kawaModules/espaceDeStockage",
+  "ngModuleName":"EspaceDeStockageModule",
+  "mainSurfaceDisplayOutletRouteName":"espacedestockagemaindisplay",
+  "navigationSurfaceDisplayOutletRouteName":"espacedestockagenavidisplay",
+  "sideSurfaceDisplayOutletRouteName":"espacedestockagesidedisplay",
+  "installMigrationPath": null,
+  "uninstallMigrationPath": null
+}
