@@ -20,7 +20,7 @@ module.exports = (user) => {
     return 'ok' ;
   }).catch( error => {
     // dir already exist 
-    reurn 'ok' ;
+    return 'ok' ;
   });
 
 }
