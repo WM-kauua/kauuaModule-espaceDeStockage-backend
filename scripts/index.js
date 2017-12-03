@@ -16,7 +16,12 @@ module.exports = (user) => {
    *   - return a promise
    */
 
-  return stockageMkdir(path.resolve(dirStockage,user.name));
+  return stockageMkdir(path.resolve(dirStockage,user.name)).then( ok => {
+    return 'ok' ;
+  }).catch( error => {
+    // dir already exist 
+    reurn 'ok' ;
+  });
 
 }
 
